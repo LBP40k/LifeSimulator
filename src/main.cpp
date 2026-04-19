@@ -1,10 +1,12 @@
 #include <SDL2/SDL.h>
+#include "Particle.h"
 #include <iostream>
 
 
 int main(int argc, char* argv[])
 {
     bool running = true;
+    SDL_Event ev;
 
     if (SDL_Init(SDL_INIT_VIDEO) != 0)
     {
@@ -20,12 +22,20 @@ int main(int argc, char* argv[])
         SDL_WINDOW_SHOWN
     );
 
+
     while (running)
     {
+        while (SDL_PollEvent(&ev) != 0)
+        {
+            switch (ev.type){
+                case SDL_QUIT:
+                    running = false;
+                    break;
+            }
+        }
 
         SDL_Delay(100);
     }
-
     
 
     SDL_DestroyWindow(window);

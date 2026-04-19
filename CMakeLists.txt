@@ -3,6 +3,9 @@ project(LifeSimulator)
 
 set(CMAKE_CXX_STANDARD 17)
 
+target_include_directories(LifeSimulator PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include")
+
+
 # Point to SDL2
 set(SDL2_PATH "C:/SDL2")
 
