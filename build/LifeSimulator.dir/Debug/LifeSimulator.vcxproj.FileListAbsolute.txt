@@ -1,2 +1,0 @@
-C:\Users\azeri\source\repos\LifeSimulator\build\Debug\SDL2.dll
-C:\Users\azeri\source\repos\LifeSimulator\build\LifeSimulator.dir\Debug\LifeSimu.134DC459.Up2Date

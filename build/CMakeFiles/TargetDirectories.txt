@@ -1,3 +1,0 @@
-C:/Users/azeri/source/repos/LifeSimulator/build/CMakeFiles/LifeSimulator.dir
-C:/Users/azeri/source/repos/LifeSimulator/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/azeri/source/repos/LifeSimulator/build/CMakeFiles/ZERO_CHECK.dir
