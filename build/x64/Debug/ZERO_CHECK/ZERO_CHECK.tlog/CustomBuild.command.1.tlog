@@ -1,0 +1,10 @@
+^C:\USERS\AZERI\SOURCE\REPOS\LIFESIMULATOR\BUILD\CMAKEFILES\CEB9507035D9E4483BD0B82466639220\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/azeri/source/repos/LifeSimulator -BC:/Users/azeri/source/repos/LifeSimulator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/azeri/source/repos/LifeSimulator/build/LifeSimulator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
